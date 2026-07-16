@@ -1,0 +1,3 @@
+/colcon_ws/tools/camera_test/build/CMakeFiles/v4l2_camera_test.dir
+/colcon_ws/tools/camera_test/build/CMakeFiles/edit_cache.dir
+/colcon_ws/tools/camera_test/build/CMakeFiles/rebuild_cache.dir
