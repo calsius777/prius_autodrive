@@ -1,0 +1,17 @@
+[0.005s] Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28
+[0.029s] [ 33%] [32mBuilding CXX object CMakeFiles/multi_cam_publisher_node.dir/src/multi_cam_node.cpp.o[0m
+[0.029s] [ 66%] [32mBuilding CXX object CMakeFiles/multi_cam_publisher_node.dir/src/camera_v4l2.cpp.o[0m
+[0.034s] [01m[K/colcon_ws/src/multi_cam_publisher/src/multi_cam_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmulti_cam_publisher/camera_v4l2.hpp: No such file or directory
+[0.034s]     1 | #include [01;31m[K"multi_cam_publisher/camera_v4l2.hpp"[m[K
+[0.034s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.034s] [01m[K/colcon_ws/src/multi_cam_publisher/src/camera_v4l2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kmulti_cam_publisher/camera_v4l2.hpp: No such file or directory
+[0.034s]     1 | #include [01;31m[K"multi_cam_publisher/camera_v4l2.hpp"[m[K
+[0.034s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.034s] compilation terminated.
+[0.034s] compilation terminated.
+[0.034s] gmake[2]: *** [CMakeFiles/multi_cam_publisher_node.dir/build.make:76: CMakeFiles/multi_cam_publisher_node.dir/src/multi_cam_node.cpp.o] Error 1
+[0.034s] gmake[2]: *** Waiting for unfinished jobs....
+[0.035s] gmake[2]: *** [CMakeFiles/multi_cam_publisher_node.dir/build.make:90: CMakeFiles/multi_cam_publisher_node.dir/src/camera_v4l2.cpp.o] Error 1
+[0.035s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/multi_cam_publisher_node.dir/all] Error 2
+[0.035s] gmake: *** [Makefile:146: all] Error 2
+[0.036s] Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28

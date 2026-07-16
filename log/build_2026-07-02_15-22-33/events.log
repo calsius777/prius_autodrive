@@ -1,0 +1,107 @@
+[0.000000] (-) TimerEvent: {}
+[0.000336] (-) JobUnselected: {'identifier': 'prius_control'}
+[0.000415] (multi_cam_publisher) JobQueued: {'identifier': 'multi_cam_publisher', 'dependencies': OrderedDict()}
+[0.000443] (multi_cam_publisher) JobStarted: {'identifier': 'multi_cam_publisher'}
+[0.004548] (multi_cam_publisher) JobProgress: {'identifier': 'multi_cam_publisher', 'progress': 'cmake'}
+[0.004691] (multi_cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '/colcon_ws/src/multi_cam_publisher', '-DCMAKE_INSTALL_PREFIX=/colcon_ws/install/multi_cam_publisher'], 'cwd': '/colcon_ws/build/multi_cam_publisher', 'env': OrderedDict([('HOSTNAME', 'ace428'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/colcon_ws/build/multi_cam_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.036863] (multi_cam_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.068094] (multi_cam_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.072308] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099947] (-) TimerEvent: {}
+[0.132619] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.138504] (multi_cam_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.138762] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139172] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.142541] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.187704] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.192556] (multi_cam_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.192763] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.193067] (multi_cam_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.194321] (multi_cam_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199989] (-) TimerEvent: {}
+[0.267657] (multi_cam_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300076] (-) TimerEvent: {}
+[0.316779] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.338754] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.341256] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.346011] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.353154] (multi_cam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.362625] (multi_cam_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.387839] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.389187] (multi_cam_publisher) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.400128] (-) TimerEvent: {}
+[0.401815] (multi_cam_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.406185] (multi_cam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.460617] (multi_cam_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.460762] (multi_cam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.500222] (-) TimerEvent: {}
+[0.502836] (multi_cam_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.503503] (multi_cam_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.536719] (multi_cam_publisher) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.555979] (multi_cam_publisher) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.562859] (multi_cam_publisher) StdoutLine: {'line': b'-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.580962] (multi_cam_publisher) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[0.600290] (-) TimerEvent: {}
+[0.618423] (multi_cam_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.626742] (multi_cam_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[0.629271] (multi_cam_publisher) StdoutLine: {'line': b'-- Build files have been written to: /colcon_ws/build/multi_cam_publisher\n'}
+[0.633535] (multi_cam_publisher) CommandEnded: {'returncode': 0}
+[0.633836] (multi_cam_publisher) JobProgress: {'identifier': 'multi_cam_publisher', 'progress': 'build'}
+[0.634217] (multi_cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/colcon_ws/build/multi_cam_publisher', '--', '-j28', '-l28'], 'cwd': '/colcon_ws/build/multi_cam_publisher', 'env': OrderedDict([('HOSTNAME', 'ace428'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/colcon_ws/build/multi_cam_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.654291] (multi_cam_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_cam_publisher_node\x1b[0m\n'}
+[0.667148] (multi_cam_publisher) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/multi_cam_publisher_node.dir/src/multi_cam_node.cpp.o\x1b[0m\n'}
+[0.700372] (-) TimerEvent: {}
+[0.800573] (-) TimerEvent: {}
+[0.900790] (-) TimerEvent: {}
+[1.001007] (-) TimerEvent: {}
+[1.101209] (-) TimerEvent: {}
+[1.201401] (-) TimerEvent: {}
+[1.301613] (-) TimerEvent: {}
+[1.401831] (-) TimerEvent: {}
+[1.502049] (-) TimerEvent: {}
+[1.602270] (-) TimerEvent: {}
+[1.702492] (-) TimerEvent: {}
+[1.802713] (-) TimerEvent: {}
+[1.902925] (-) TimerEvent: {}
+[2.003137] (-) TimerEvent: {}
+[2.103321] (-) TimerEvent: {}
+[2.203466] (-) TimerEvent: {}
+[2.303643] (-) TimerEvent: {}
+[2.403788] (-) TimerEvent: {}
+[2.504024] (-) TimerEvent: {}
+[2.604219] (-) TimerEvent: {}
+[2.704396] (-) TimerEvent: {}
+[2.804639] (-) TimerEvent: {}
+[2.904884] (-) TimerEvent: {}
+[3.005109] (-) TimerEvent: {}
+[3.105307] (-) TimerEvent: {}
+[3.205490] (-) TimerEvent: {}
+[3.271128] (multi_cam_publisher) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable multi_cam_publisher_node\x1b[0m\n'}
+[3.305588] (-) TimerEvent: {}
+[3.405813] (-) TimerEvent: {}
+[3.483069] (multi_cam_publisher) StdoutLine: {'line': b'[100%] Built target multi_cam_publisher_node\n'}
+[3.488050] (multi_cam_publisher) CommandEnded: {'returncode': 0}
+[3.488390] (multi_cam_publisher) JobProgress: {'identifier': 'multi_cam_publisher', 'progress': 'install'}
+[3.492149] (multi_cam_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/colcon_ws/build/multi_cam_publisher'], 'cwd': '/colcon_ws/build/multi_cam_publisher', 'env': OrderedDict([('HOSTNAME', 'ace428'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/colcon_ws'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/colcon_ws/build/multi_cam_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.495709] (multi_cam_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.495818] (multi_cam_publisher) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/multi_cam_publisher/lib/multi_cam_publisher/multi_cam_publisher_node\n'}
+[3.496284] (multi_cam_publisher) StdoutLine: {'line': b'-- Set runtime path of "/colcon_ws/install/multi_cam_publisher/lib/multi_cam_publisher/multi_cam_publisher_node" to ""\n'}
+[3.496330] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/package_run_dependencies/multi_cam_publisher\n'}
+[3.496385] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/parent_prefix_path/multi_cam_publisher\n'}
+[3.496424] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/ament_prefix_path.sh\n'}
+[3.496455] (multi_cam_publisher) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/ament_prefix_path.dsv\n'}
+[3.500296] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/path.sh\n'}
+[3.500340] (multi_cam_publisher) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/path.dsv\n'}
+[3.501539] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.bash\n'}
+[3.501586] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.sh\n'}
+[3.501625] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.zsh\n'}
+[3.501655] (multi_cam_publisher) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.dsv\n'}
+[3.502829] (multi_cam_publisher) StdoutLine: {'line': b'-- Installing: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/package.dsv\n'}
+[3.502896] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/packages/multi_cam_publisher\n'}
+[3.502946] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/cmake/multi_cam_publisherConfig.cmake\n'}
+[3.502991] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/cmake/multi_cam_publisherConfig-version.cmake\n'}
+[3.503026] (multi_cam_publisher) StdoutLine: {'line': b'-- Up-to-date: /colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/package.xml\n'}
+[3.504375] (multi_cam_publisher) CommandEnded: {'returncode': 0}
+[3.505937] (-) TimerEvent: {}
+[3.518750] (multi_cam_publisher) JobEnded: {'identifier': 'multi_cam_publisher', 'rc': 0}
+[3.519108] (-) EventReactorShutdown: {}

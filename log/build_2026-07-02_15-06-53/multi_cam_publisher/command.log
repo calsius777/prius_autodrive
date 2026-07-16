@@ -1,0 +1,6 @@
+Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /colcon_ws/src/multi_cam_publisher -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/multi_cam_publisher
+Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /colcon_ws/src/multi_cam_publisher -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/multi_cam_publisher
+Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28
+Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28
+Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /colcon_ws/build/multi_cam_publisher
+Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /colcon_ws/build/multi_cam_publisher

@@ -1,0 +1,2 @@
+Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28
+Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /colcon_ws/build/multi_cam_publisher -- -j28 -l28

@@ -1,0 +1,30 @@
+[0.005s] Invoking command in '/colcon_ws/build/multi_cam_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /colcon_ws/src/multi_cam_publisher -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/multi_cam_publisher
+[0.012s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.097s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.098s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.102s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.115s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.135s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.135s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.146s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.176s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.193s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.199s] -- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+[0.250s] -- Configuring done
+[0.251s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.251s]   Cannot find source file:
+[0.251s] 
+[0.252s]     src/multi_cam_node.cpp
+[0.252s] 
+[0.252s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.252s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.252s] 
+[0.252s] [0m
+[0.253s] [31mCMake Error at CMakeLists.txt:23 (add_executable):
+[0.253s]   No SOURCES given to target: multi_cam_publisher_node
+[0.253s] 
+[0.253s] [0m
+[0.253s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.256s] Invoked command in '/colcon_ws/build/multi_cam_publisher' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /colcon_ws/src/multi_cam_publisher -DCMAKE_INSTALL_PREFIX=/colcon_ws/install/multi_cam_publisher
