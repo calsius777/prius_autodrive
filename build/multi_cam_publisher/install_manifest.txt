@@ -1,0 +1,16 @@
+/colcon_ws/install/multi_cam_publisher/lib/multi_cam_publisher/multi_cam_publisher_node
+/colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/package_run_dependencies/multi_cam_publisher
+/colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/parent_prefix_path/multi_cam_publisher
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/ament_prefix_path.sh
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/ament_prefix_path.dsv
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/path.sh
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/environment/path.dsv
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.bash
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.sh
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.zsh
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/local_setup.dsv
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/package.dsv
+/colcon_ws/install/multi_cam_publisher/share/ament_index/resource_index/packages/multi_cam_publisher
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/cmake/multi_cam_publisherConfig.cmake
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/cmake/multi_cam_publisherConfig-version.cmake
+/colcon_ws/install/multi_cam_publisher/share/multi_cam_publisher/package.xml
