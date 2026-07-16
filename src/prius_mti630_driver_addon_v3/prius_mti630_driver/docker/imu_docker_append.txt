@@ -1,0 +1,7 @@
+# Add this to the project Dockerfile package install section.
+# pyserial is required by prius_mti630_driver. tf2_ros is needed for static_transform_publisher.
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    python3-serial \
+    ros-humble-diagnostic-msgs \
+    ros-humble-tf2-ros \
+  && rm -rf /var/lib/apt/lists/*

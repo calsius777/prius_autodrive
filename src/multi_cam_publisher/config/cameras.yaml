@@ -1,0 +1,38 @@
+multi_cam_publisher:
+  ros__parameters:
+    devices:
+      - /dev/video0
+      - /dev/video2
+      - /dev/video4
+      - /dev/video6
+      - /dev/video8
+      - /dev/video10
+
+    topics:
+      - /camera/device_0/image_raw
+      - /camera/device_1/image_raw
+      - /camera/device_2/image_raw
+      - /camera/device_3/image_raw
+      - /camera/device_4/image_raw
+      - /camera/device_5/image_raw
+
+    frame_ids:
+      - camera_0_optical_frame
+      - camera_1_optical_frame
+      - camera_2_optical_frame
+      - camera_3_optical_frame
+      - camera_4_optical_frame
+      - camera_5_optical_frame
+
+    capture_width: 1920
+    capture_height: 1280
+    capture_fps: 30
+
+    publish_hz: 10.0
+    
+    output_encoding: bgr8
+    buffer_count: 8
+
+    reconnect_delay_ms: 1000
+    frame_timeout_sec: 3.0
+    stats_period_sec: 5.0

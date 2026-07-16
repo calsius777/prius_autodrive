@@ -1,0 +1,9 @@
+prius_can_status_node:
+  ros__parameters:
+    interface: can0
+    publish_hz: 50.0
+    read_timer_ms: 1
+    max_frames_per_cycle: 500
+    steering_center_offset_deg: 0.0
+    wheel_speed_baseline_raw: 6767   # 0x1A6F
+    warn_unknown_ids: false

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>prius_sensor_bringup</name>
+  <version>0.1.0</version>
+  <description>Sensor bringup package for the Prius autonomous vehicle platform.</description>
+
+  <maintainer email="maintainer@example.com">Prius Project Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>velodyne</exec_depend>
+  <exec_depend>velodyne_driver</exec_depend>
+  <exec_depend>velodyne_pointcloud</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

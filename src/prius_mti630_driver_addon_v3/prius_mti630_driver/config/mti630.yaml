@@ -1,0 +1,54 @@
+mti630_node:
+  ros__parameters:
+    # Change this after checking: ls -l /dev/serial/by-id/
+    port: /dev/ttyUSB0
+
+    # Common values: 115200, 460800, 921600.
+    # Use the same baudrate configured in MT Manager.
+    baudrate: 115200
+
+    frame_id: mti630_link
+
+    imu_topic: /sensing/imu/mti630/imu_raw
+    mag_topic: /sensing/imu/mti630/mag
+    status_topic: /sensing/imu/mti630/status_word
+    diagnostics_topic: /diagnostics
+
+    publish_magnetic_field: true
+    publish_status_word: true
+    publish_diagnostics: true
+
+    # The first bringup version uses ROS receive time. Keep false until you add
+    # a proper device-time to ROS-time synchronization policy.
+    use_device_timestamp: false
+
+    read_chunk_size: 512
+    serial_timeout_sec: 0.05
+    reconnect_sec: 1.0
+    warn_if_no_packet_sec: 1.0
+
+    # 0.0 means no software rate limit. Recommended: configure MTi output rate
+    # with MT Manager, e.g. 100 Hz.
+    publish_rate_limit_hz: 0.0
+
+    # sensor_msgs/Imu linear_acceleration should use calibrated acceleration
+    # 0x4020 in m/s^2. FreeAcceleration has gravity removed and is usually not
+    # what Autoware raw IMU input expects.
+    allow_free_acceleration_fallback: false
+
+    # Vector-axis remap after parsing. Example:
+    #   axis_map:  [0, 1, 2]
+    #   axis_sign: [1.0, 1.0, 1.0]
+    # means x=x, y=y, z=z.
+    # Quaternion remapping is not implemented; physically mount or configure the
+    # MTi coordinate system to match ROS frame conventions when publishing orientation.
+    axis_map: [0, 1, 2]
+    axis_sign: [1.0, 1.0, 1.0]
+    publish_orientation: true
+    disable_orientation_when_axis_remap: true
+
+    # Engineering default covariance. Tune after stationary/road tests.
+    orientation_stddev: [0.02, 0.02, 0.05]
+    angular_velocity_stddev: [0.003, 0.003, 0.003]
+    linear_acceleration_stddev: [0.05, 0.05, 0.05]
+    magnetic_field_stddev: [0.000001, 0.000001, 0.000001]
