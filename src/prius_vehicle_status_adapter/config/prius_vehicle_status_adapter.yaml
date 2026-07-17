@@ -1,0 +1,34 @@
+prius_basic_vehicle_status_adapter_node:
+  ros__parameters:
+    input_topic: /prius/can/status
+    publish_hz: 50.0
+    status_timeout_sec: 0.5
+    base_frame_id: base_link
+
+    # Prius CAN gives steering wheel angle. Autoware needs steering tire angle.
+    # This must be calibrated. Initial practical placeholder.
+    steering_ratio: 14.8
+
+    # Prius NHW/ZVW wheelbase is around this range; replace with your measured value.
+    wheel_base_m: 2.70
+
+    # speed: use 0x0B4 SPEED. wheel_average: average FR/FL/RR/RL wheel speeds.
+    speed_source: speed
+
+    # If true: yaw_rate ~= v * tan(steering_tire_angle) / wheel_base.
+    # Keep false until steering_ratio is calibrated; IMU yaw rate is preferred.
+    estimate_heading_rate_from_steering: false
+
+prius_autoware_vehicle_status_adapter_node:
+  ros__parameters:
+    input_topic: /prius/can/status
+    publish_hz: 50.0
+    status_timeout_sec: 0.5
+    base_frame_id: base_link
+    steering_ratio: 14.8
+    wheel_base_m: 2.70
+    speed_source: speed
+    estimate_heading_rate_from_steering: false
+
+    # Gear/reverse is intentionally not handled yet.
+    publish_hazard_disabled: true
