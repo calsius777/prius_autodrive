@@ -66,8 +66,10 @@ RUN source /opt/ros/humble/setup.bash && \
     colcon build \
     --packages-select \
     multi_cam_publisher \
-    prius_control \
     prius_can_interface \
+    prius_vehicle_status_adapter \
+    prius_mti630_driver \
+    prius_sensor_bringup \
     --cmake-clean-cache
 
 RUN echo "source /opt/ros/humble/setup.bash" >> /root/.bashrc && \
