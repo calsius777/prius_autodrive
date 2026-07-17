@@ -43,6 +43,7 @@ RUN apt-get update && apt-get install -y \
     ros-humble-diagnostic-updater \
     ros-humble-tf2-ros \
     ros-humble-tf2-geometry-msgs \
+    ros-humble-autoware-vehicle-msgs\
     ros-humble-geometry-msgs \
     ros-humble-nav-msgs \
     ros-humble-robot-state-publisher \
