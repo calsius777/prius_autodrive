@@ -1,0 +1,9 @@
+# checkerboard_inner_corners = internal corner intersections, not printed square count.
+checkerboard:
+  inner_corners_x: 8
+  inner_corners_y: 6
+  square_size_m: 0.030
+capture_plan:
+  static_seconds_per_pose: 2.0
+  recommended_pose_count_per_camera: 20
+  recommended_lidar_pcd_per_pose: 3

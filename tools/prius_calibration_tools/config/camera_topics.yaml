@@ -1,0 +1,22 @@
+# Prius six-camera topic list. Adjust names if multi_cam_publisher config changes.
+cameras:
+  camera_front:
+    image_topic: /camera/device_0/image_raw
+    camera_info_topic: /camera/device_0/camera_info
+  camera_front_left:
+    image_topic: /camera/device_2/image_raw
+    camera_info_topic: /camera/device_2/camera_info
+  camera_front_right:
+    image_topic: /camera/device_4/image_raw
+    camera_info_topic: /camera/device_4/camera_info
+  camera_back:
+    image_topic: /camera/device_6/image_raw
+    camera_info_topic: /camera/device_6/camera_info
+  camera_back_left:
+    image_topic: /camera/device_8/image_raw
+    camera_info_topic: /camera/device_8/camera_info
+  camera_back_right:
+    image_topic: /camera/device_10/image_raw
+    camera_info_topic: /camera/device_10/camera_info
+lidar:
+  pointcloud_topic: /velodyne_points

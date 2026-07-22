@@ -1,0 +1,56 @@
+# Initial extrinsic parameters relative to base_link.
+# Coordinate convention: x forward, y left, z up. rpy in radians.
+frames:
+  base_frame: base_link
+sensors:
+  velodyne:
+    parent: base_link
+    child: velodyne
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  imu:
+    parent: base_link
+    child: imu_link
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  gnss:
+    parent: base_link
+    child: gnss_link
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_front:
+    parent: base_link
+    child: camera_front_link
+    optical_child: camera_front_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_front_left:
+    parent: base_link
+    child: camera_front_left_link
+    optical_child: camera_front_left_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_front_right:
+    parent: base_link
+    child: camera_front_right_link
+    optical_child: camera_front_right_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_back:
+    parent: base_link
+    child: camera_back_link
+    optical_child: camera_back_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_back_left:
+    parent: base_link
+    child: camera_back_left_link
+    optical_child: camera_back_left_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
+  camera_back_right:
+    parent: base_link
+    child: camera_back_right_link
+    optical_child: camera_back_right_optical_frame
+    xyz: [0.0, 0.0, 0.0]
+    rpy: [0.0, 0.0, 0.0]
